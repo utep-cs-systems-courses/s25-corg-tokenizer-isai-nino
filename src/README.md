@@ -1,12 +1,15 @@
 Project 1: Tokenizer
 ====================
-# Instructions:
+# How to use it
+This tokenizer has 3 commands: 
 
-You should document your tokenizer in this file.
+**history:**
+This command prints the entire history of stored tokens from the words you have typed.
 
-This file is written in the refreshingly simple `markdown` text
-formatting language.
+**!id:** 
+This command prints **only 1** token according to the number you give it (i.e. !15).
+If the id is not related with an item in the history or is not a number, it will 
+not print any item. (i.e. !ab).
 
-To learn about text formatting using markdown, we encourage you to examine 
- - [../README.md](../README.md)
- - the online [Markdown Guide](https://www.markdownguide.org/).
+**quit:**
+This command frees the tokens and history and then stops the program. 
